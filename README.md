@@ -3,5 +3,5 @@
 Add Foundato repository to Helm repos:
 
 ```bash
-helm repo add fluxcd https://charts.foundato.io
+helm repo add foundato https://charts.foundato.io
 ```
