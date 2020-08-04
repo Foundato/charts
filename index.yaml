@@ -3,7 +3,7 @@ entries:
   cortex:
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2020-07-22T13:00:14.149665259Z"
+    created: "2020-08-04T18:28:49.282960723Z"
     dependencies:
     - alias: memcached
       condition: memcached.enabled
@@ -21,17 +21,17 @@ entries:
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 3.2.3
     description: Cortex
-    digest: 0b3a6e9c4e9ba6ae2faf4fb05c9e7ba75168d639e548bff5303f174abf40e865
+    digest: e2dcd163f10cf84bb7277ee7ff0e5f78929299496d8c92bdbddadd6314df174e
     home: https://cortexmetrics.io/
     icon: https://avatars2.githubusercontent.com/u/43045022?s=200&v=4
     kubeVersion: ^1.10.0-0
     maintainers:
-    - email: roberto.previtera@gmail.com
-      name: Roberto Previtera
+    - email: cortex-team@googlegroups.com
+      name: Cortex Maintainers
     name: cortex
     sources:
-    - https://github.com/previ/cortex-helm-chart
+    - https://github.com/cortexproject/cortex-helm-chart
     urls:
     - https://charts.foundato.io/cortex-0.1.2.tgz
     version: 0.1.2
-generated: "2020-07-22T13:00:14.143873956Z"
+generated: "2020-08-04T18:28:49.276972094Z"
