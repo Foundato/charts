@@ -3,7 +3,7 @@ entries:
   cortex:
   - apiVersion: v2
     appVersion: v1.1.0
-    created: "2020-08-04T18:46:11.373532865Z"
+    created: "2020-08-04T18:48:09.764561651Z"
     dependencies:
     - alias: memcached
       condition: memcached.enabled
@@ -21,7 +21,7 @@ entries:
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 3.2.3
     description: Cortex
-    digest: 7383a9eac0a58e23fcc04b2a40cb0a0a0e3506dec7810c593dbc250052cbe570
+    digest: d900c9b47bda4c37930894ff58be01d5b5796529a03b82cdeb7bf7dd07951204
     home: https://cortexmetrics.io/
     icon: https://avatars2.githubusercontent.com/u/43045022?s=200&v=4
     kubeVersion: ^1.10.0-0
@@ -34,4 +34,4 @@ entries:
     urls:
     - https://charts.foundato.io/cortex-0.1.2.tgz
     version: 0.1.2
-generated: "2020-08-04T18:46:11.366799053Z"
+generated: "2020-08-04T18:48:09.757773799Z"
